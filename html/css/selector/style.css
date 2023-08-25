@@ -1,0 +1,11 @@
+h2{
+    color: red;
+}
+/* class-selector */
+.text{
+    color: red;
+}
+/* in id selector */
+#main{
+    color: blue;
+}

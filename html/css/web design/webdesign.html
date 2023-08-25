@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web design from udemy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+h1 {
+  font-size: 5rem;
+}
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+.title-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+.card {
+  width: 45%;
+}
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.creative {
+  color: midnightblue;
+}
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
+    </style>
+  
+</head>
+<body>
+    
+    <div class="main">
+        <img class="logo" src="logo.png" alt="logo">
+        <h1>We are a Creative
+             Design Agency</h1>
+        <div class="left card"><img class="title-image" src="nani1.jpg" alt="stylish" width="300px">
+        <h2 class="card-title">New Look</h2>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Dolorem unde facilis maxime nisi tempore tempora
+             sapiente et quam 
+             harum.</p>
+        </div>
+        <div class="right-card"><img class="title-image" src="Nani2.jpg" alt="Dasara" width="250px">
+        <h2 class="card-title"> Still from Dasara</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis autem, vel ut,
+            cupiditate deserunt culpa quidem qui, 
+            quaerat suscipit laboriosam et fugiat voluptas voluptate rerum.</p>
+        </div>
+    </div>
+    <footer>
+        <p>create.Develop.Design</p>
+    </footer>
+    
+</body>
+</html>

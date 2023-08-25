@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex direction and layout</title>
+    <style>
+        .container{
+            color: white;
+            border: 5px solid gold;
+            display: flex;
+            /* flex-direction: column; */
+             flex-wrap: wrap; 
+             /* justify-content: space-between; */
+             align-content: center;
+             height: 70vh;
+
+        }
+.container,*{
+    flex-basis: 100px;
+}
+
+
+        .red{background-color: red;}
+        .orange{background-color: orange;}
+        .Yellow{background-color:yellow;}
+        .green{background-color: green;}
+        .blue{background-color: blue;}
+        .indigo{background-color: indigo;}
+        .purple{background-color: purple;}
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="red">Red</div>
+        <div class="orange">Orange</div>
+        <div class="Yellow">Yellow</div>
+        <div class="green">Green</div>
+        <div class="blue">Blue</div>
+        <div class="indigo">Indigo</div>
+        <div class="purple">Purple</div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- flex directions
+    inline; the layout countinue stacking inline  until there is no more space
+
+    block;there are stacking one on each other 
+      these are html default flow from top to bottom
+
+      align content= similar to align-items but it only works when u set to flex-warp to "warp"
+
+-->
+
+
+
+
+
+
+
+
+
+
+
